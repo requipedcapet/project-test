@@ -10,7 +10,7 @@ mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://localhost:27017/api_test', {useNewUrlParser: true})
     .then(()=>{
 
-        console.log('Connection Success!!.');
+        console.log('Connection Success!!');
 
         //server
         app.listen(port, () =>{
